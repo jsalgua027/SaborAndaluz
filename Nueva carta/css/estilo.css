@@ -29,6 +29,13 @@ h2 {
   text-align: right; /* Alinea el texto a la derecha */
 }
 
+header{
+  background-color: green;
+  color:white
+}
 
+footer{
+  background-color: green;
+}
 
 
