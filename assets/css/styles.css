@@ -11,29 +11,6 @@ h2 {
   color: red;
 }
 
-/* estilo.css */
-.nombre-producto {
-  display: flex;
-  flex-direction: column;
-  /* Apila los elementos uno debajo del otro */
-}
-
-.nombre-producto span {
-  margin-bottom: 5px;
-  /* Espacio entre los elementos (opcional) */
-}
-
-/* estilo.css */
-.producto {
-  display: flex;
-  justify-content: space-between;
-  /* Distribuye el espacio entre los elementos */
-  align-items: center;
-  /* Alinea los elementos verticalmente al centro */
-  margin-bottom: 10px;
-  /* Espacio entre productos (opcional) */
-}
-
 header#menuHeader {
   background-color: green;
   color: white;
@@ -43,19 +20,6 @@ header#menuHeader {
 main#menuMain {
   padding-top: 100px;
 }
-
-.nombre-producto {
-  display: flex;
-  flex-direction: column;
-  /* Apila los spans en una columna */
-}
-
-.precios {
-  text-align: right;
-  /* Alinea el texto a la derecha */
-}
-
-
 
 footer {
   background-color: green;
