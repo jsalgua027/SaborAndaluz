@@ -14,356 +14,345 @@
 
 <body>
     <header id="menuHeader" class="fixed-top row m-0 align-items-center">
-        <nav id="lateralIndex" class="col-3">
-            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                aria-controls="offcanvasExample">
-                Link with href
-            </a>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Índice</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <a href="#specialties" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>ESPECIALIDADES / SPECIALTIES</h3>
-                    </a>
-                    <a href="#salads" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>ENSALADAS / SALADS</h3>
-                    </a>
-                    <a href="#starters" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>ENTRANTES / STARTERS</h3>
-                    </a>
-                    <a href="#toasts" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>TOSTADAS / TOAST</h3>
-                    </a>
-                    <a href="#meats" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>CARNES / MEATS</h3>
-                    </a>
-                    <a href="#desserts" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>POSTRES / DESSERTS</h3>
-                    </a>
-                    <a href="#montaditos" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>MONTADITOS / MINI SANDWICH</h3>
-                    </a>
-                    <a href="#wines" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>VINOS / WINES</h3>
-                    </a>
-                    <a href="#cocktails" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>COMBINADOS / COMBINED</h3>
-                    </a>
-                    <a href="#beersRefreshments" class="nav-link" data-bs-dismiss="offcanvas">
-                        <h3>CERVEZAS Y REFRESCOS / BEERS AND REFRESHMENTS</h3>
-                    </a>
-                </div>
+        <div class="col-12 d-flex align-items-center position-relative">
+            <nav id="hamb-menu" class="position-absolute">
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <div for="cb-hamburguesa" id="hamb-icon">
+                        <span class="hamburguer-line"></span>
+                        <span class="hamburguer-line"></span>
+                        <span class="hamburguer-line"></span>
+                    </div>
+                </a>
+                <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Índice</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <a href="#specialties" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>ESPECIALIDADES / SPECIALTIES</h3>
+                        </a>
+                        <a href="#salads" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>ENSALADAS / SALADS</h3>
+                        </a>
+                        <a href="#starters" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>ENTRANTES / STARTERS</h3>
+                        </a>
+                        <a href="#toasts" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>TOSTADAS / TOAST</h3>
+                        </a>
+                        <a href="#meats" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>CARNES / MEATS</h3>
+                        </a>
+                        <a href="#desserts" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>POSTRES / DESSERTS</h3>
+                        </a>
+                        <a href="#montaditos" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>MONTADITOS / MINI SANDWICH</h3>
+                        </a>
+                        <a href="#wines" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>VINOS / WINES</h3>
+                        </a>
+                        <a href="#cocktails" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>COMBINADOS / COMBINED</h3>
+                        </a>
+                        <a href="#beersRefreshments" class="nav-link" data-bs-dismiss="offcanvas">
+                            <h3>CERVEZAS Y REFRESCOS / BEERS AND REFRESHMENTS</h3>
+                        </a>
+                    </div>
 
-            </div>
-        </nav>
-        <div class="col-9">
-            <h1>SABOR ANDALUZ</h1>
+                </div>
+            </nav>
+            <h1 class="m-0 w-100 text-center">SABOR ANDALUZ</h1>
         </div>
+        
     </header>
     <main id="menuMain"
         class="p-3">
-    
-        <h2 id="specialties">ESPECIALIDADES / SPECIALTIES</h2>
-        <br>
-        <div class="price-header text-end">
-            <div class="header-line text-end fw-bold">
-                TAPAS / 1/2 RACIÓN / RACIÓN
+        <div id="specialties" 
+            class="menuSection pt-4">
+            <h2 class="text-center">
+                ESPECIALIDADES / SPECIALTIES
+            </h2>
+            <br>
+            <div class="price-header text-end">
+                <div class="header-line text-end fw-bold">
+                    TAPAS / 1/2 RACIÓN / RACIÓN
+                </div>
+                <div class="header-line">
+                    TIDBITS / 1/2 PORTION / PORTION
+                </div>
             </div>
-            <div class="header-line">
-                TIDBITS / 1/2 PORTION / PORTION
+            <br>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Cazuela de Almendras</strong><br>
+                    <span>Fried Almond</span><br>
+                    <img src="/assets/img/icons/treeNut.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>1,80€ / - / - </span>
+                </div>
             </div>
-        </div>
-        <br>
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Jamón 100% Ibérico de Bellota</strong><br>
-                <span>Reserve Ham Acorn-fed 100% Iberian</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Bandeja Familiar Ibérica</strong><br>
+                    <span>Family Iberian Plates</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>18,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>3,50€</span> / 
-                <span>12,50€</span> /
-                <span>23,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Ración Variada Ibérica</strong><br>
+                    <span>Varied Iberian Portion</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>8,50€</span> / 
+                    <span>13,50€</span>
+                </div>
             </div>
-        </div>
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Cazuela de Almendras</strong><br>
-                <span>Fried Almond</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Jamón 100% Ibérico de Bellota</strong><br>
+                    <span>Reserve Ham Acorn-fed 100% Iberian</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,50€</span> / 
+                    <span>12,50€</span> /
+                    <span>23,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>1,80€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Jamón Pata Negra (Cebo Campo)</strong><br>
+                    <span>Iberian Ham "Pata Negra"</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>9,70€</span> /
+                    <span>16,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Bandeja Familiar Ibérica</strong><br>
-                <span>Family Iberian Plates</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Caña de Lomo de Bellota</strong><br>
+                    <span>Cured Pork Acorn-fed 75% Iberian</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>9,90€</span> /
+                    <span>17,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>18,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Salchichón de Bellota</strong><br>
+                    <span>Pepperoni Acorn-fed</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,50€</span> /
+                    <span>6,50€</span> /
+                    <span>10,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Ración Variada Ibérica</strong><br>
-                <span>Varied Iberian Portion</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Chorizo de Bellota</strong><br>
+                    <span>Red Sausage Acorn-fed</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,50€</span> /
+                    <span>6,50€</span> /
+                    <span>10,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>8,50€</span> / 
-                <span>13,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Morcón de Lomo de Bellota</strong><br>
+                    <span>Morcon of Acorn-fed Ham Loin</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,50€</span> /
+                    <span>7,00€</span> /
+                    <span>11,90€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Jamón 100% Ibérico de Bellota</strong><br>
-                <span>Reserve Ham Acorn-fed 100% Iberian</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Morcilla de Jabugo</strong><br>
+                    <span>Jabugo Blackpudding</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,00€</span> /
+                    <span>5,00€</span> /
+                    <span>7,90€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>3,50€</span> / 
-                <span>12,50€</span> /
-                <span>23,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Morcilla de Hígado</strong><br>
+                    <span>Blackpudding</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,00€</span> /
+                    <span>5,00€</span> /
+                    <span>7,90€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Jamón Pata Negra (Cebo Campo)</strong><br>
-                <span>Iberian Ham "Pata Negra"</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Queso Viejo Añejo</strong><br>
+                    <span>Cured Old Cheese</span><br>
+                    <img src="/assets/img/icons/dairy.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>7,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>9,70€</span> /
-                <span>16,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Queso Viejo</strong><br>
+                    <span>Old Cheese</span><br>
+                    <img src="/assets/img/icons/dairy.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,50€</span> /
+                    <span>6,50€</span> /
+                    <span>12,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Caña de Lomo de Bellota</strong><br>
-                <span>Cured Pork Acorn-fed 75% Iberian</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Queso Curado</strong><br>
+                    <span>Cured Cheese</span><br>
+                    <img src="/assets/img/icons/dairy.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,20€</span> /
+                    <span>6,00€</span> /
+                    <span>10,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>9,90€</span> /
-                <span>17,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Queso Semicurado</strong><br>
+                    <span>Half Cured Cheese</span><br>
+                    <img src="/assets/img/icons/dairy.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,00€</span> /
+                    <span>5,50€</span> /
+                    <span>9,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Salchichón de Bellota</strong><br>
-                <span>Pepperoni Acorn-fed</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Mohama de Lomo de Atún</strong><br>
+                    <span>Loin of Dry Tuna</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                    <img src="/assets/img/icons/treeNut.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>8,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>2,50€</span> /
-                <span>6,50€</span> /
-                <span>10,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Huevas de Atún Curadas</strong><br>
+                    <span>Dry Spawn Tuna</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                    <img src="/assets/img/icons/treeNut.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>8,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Chorizo de Bellota</strong><br>
-                <span>Red Sausage Acorn-fed</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Atún con Pimientos del Piquillo</strong><br>
+                    <span>Tuna with Piquillo Peppers</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>2,00€</span> /
+                    <span>5,50€</span> /
+                    <span>9,00€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>2,50€</span> /
-                <span>6,50€</span> /
-                <span>10,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Salmón Ahumado</strong><br>
+                    <span>Smoked Salmon</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>7,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Morcón de Lomo de Bellota</strong><br>
-                <span>Morcon of Acorn-fed Ham Loin</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Anchoas del Cantábrico</strong><br>
+                    <span>Anchovies</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>7,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>2,50€</span> /
-                <span>7,00€</span> /
-                <span>11,90€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Melva Canutera</strong><br>
+                    <span>Melva Canutera</span><br>
+                    <img src="/assets/img/icons/fish.svg" height="35" srcset="">
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>3,00€</span> /
+                    <span>7,50€</span> /
+                    <span>14,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Morcilla de Jabugo</strong><br>
-                <span>Jabugo Blackpudding</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Habas Mini con Jamón</strong><br>
+                    <span>Baby Beans with Ham</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>7,00€</span> /
+                    <span>12,00€</span>
+                </div>
             </div>
-            <div class="precios col-6 text-end">
-                <span>2,00€</span> /
-                <span>5,00€</span> /
-                <span>7,90€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Chorizo Serrano Plancha</strong><br>
+                    <span>Grill Chorizo</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>5,00€</span> /
+                    <span>8,50€</span>
+                </div>
             </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Morcilla de Hígado</strong><br>
-                <span>Blackpudding</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>2,00€</span> /
-                <span>5,00€</span> /
-                <span>7,90€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Queso Viejo Añejo</strong><br>
-                <span>Cured Old Cheese</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>7,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Queso Viejo</strong><br>
-                <span>Old Cheese</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>2,50€</span> /
-                <span>6,50€</span> /
-                <span>12,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Queso Curado</strong><br>
-                <span>Cured Cheese</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>2,20€</span> /
-                <span>6,00€</span> /
-                <span>10,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Queso Semicurado</strong><br>
-                <span>Half Cured Cheese</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>2,00€</span> /
-                <span>5,50€</span> /
-                <span>9,50€</span>
-            </div>
-        </div>
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Mohama de Lomo de Atún</strong><br>
-                <span>Loin of Dry Tuna</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>8,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Huevas de Atún Curadas</strong><br>
-                <span>Dry Spawn Tuna</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>8,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Atún con Pimientos del Piquillo</strong><br>
-                <span>Tuna with Piquillo Peppers</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>2,00€</span> /
-                <span>5,50€</span> /
-                <span>9,00€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Salmón Ahumado</strong><br>
-                <span>Smoked Salmon</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>7,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Anchoas del Cantábrico</strong><br>
-                <span>Anchovies</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>7,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Melva Canutera</strong><br>
-                <span>Melva Canutera</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>3,00€</span> /
-                <span>7,50€</span> /
-                <span>14,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Habas Mini con Jamón</strong><br>
-                <span>Baby Beans with Ham</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>7,00€</span> /
-                <span>12,00€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Chorizo Serrano Plancha</strong><br>
-                <span>Grill Chorizo</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>5,00€</span> /
-                <span>8,50€</span>
-            </div>
-        </div>
-
-        <div class="producto row mb-4">
-            <div class="nombre-producto col-6">
-                <strong>Morcilla de Cebolla Plancha</strong><br>
-                <span>Grilled Onion Blackpudding</span>
-            </div>
-            <div class="precios col-6 text-end">
-                <span>5,00€</span> /
-                <span>8,50€</span>
+            <div class="producto row mb-4">
+                <div class="nombre-producto col-6">
+                    <strong>Morcilla de Cebolla Plancha</strong><br>
+                    <span>Grilled Onion Blackpudding</span>
+                </div>
+                <div class="precios col-6 text-end">
+                    <span>5,00€</span> /
+                    <span>8,50€</span>
+                </div>
             </div>
         </div>
 

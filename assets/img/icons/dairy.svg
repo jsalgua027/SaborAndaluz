@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="262.20471"
-   height="372.04724"
+   height="262.20471"
    id="svg4209"
    version="1.1"
    inkscape:version="0.48.5 r10040"
@@ -24,7 +24,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20031052"
+     inkscape:zoom="0.28352528"
      inkscape:cx="1166.5898"
      inkscape:cy="885.81209"
      inkscape:document-units="px"
@@ -51,22 +51,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-680.31494)">
+     transform="translate(0,-700)">
     <g
        id="g4979"
        transform="matrix(5.5766334,0,0,5.5766334,-1073.8786,-1027.3502)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4050-3"
-         y="364.30551"
-         x="203.27881"
-         style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           style="font-size:5.5px"
-           y="364.30551"
-           x="203.27881"
-           id="tspan4052-1"
-           sodipodi:role="line">LACTEOS</tspan></text>
       <g
          id="g4972">
         <path
