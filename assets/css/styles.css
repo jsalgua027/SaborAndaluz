@@ -16,11 +16,32 @@ header#menuHeader {
   background-color: #488154;
   color: white;
   height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
 }
 
 main#menuMain {
   padding-top: 100px !important;
   background-color: rgb(236, 230, 200);
+}
+
+div.offcanvas-header {
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  background-color: #488154;
+  color: white;
+}
+
+div.offcanvas-body {
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  background-color: rgb(236, 230, 200);
+  color: rgb(134, 11, 11) !important;
+}
+
+div.offcanvas-body a.nav-link {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 
 footer {
