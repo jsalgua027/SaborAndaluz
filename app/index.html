@@ -25,11 +25,13 @@
                     </div>
                 </a>
                 <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample">
-                    <div class="offcanvas-header">
+                    <div class="offcanvas-header d-flex justify-content-between">
                         <h3 class="offcanvas-title" id="offcanvasExampleLabel">
                             ÍNDICE / INDEX
                         </h3>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <a type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <img src="/assets/img/icons/xmark.svg" height="28" srcset="">
+                        </a>
                     </div>
                     <div class="offcanvas-body">
                         <a href="#specialties" class="nav-link" data-bs-dismiss="offcanvas">
@@ -66,14 +68,18 @@
 
                 </div>
             </nav>
-            <h1 class="m-0 w-100 text-center">SABOR ANDALUZ</h1>
+            <h1 class="m-0 w-100 text-center"
+                id="headerTitle">
+                Sabor Andaluz
+            </h1>
         </div>
         
     </header>
     <main id="menuMain"
         class="p-3">
+        <!-- ESPECIALIDADES -->
         <div id="specialties" 
-            class="menuSection pt-4">
+            class="pt-4">
             <h2 class="text-center">
                 ESPECIALIDADES / SPECIALTIES
             </h2>
@@ -357,8 +363,9 @@
                 </div>
             </div>
         </div>
-
-        <div id="salads">
+        <!-- ENSALADAS -->
+        <div id="salads"
+            class="pt-4">
             <h2 class="text-center">ENSALADAS / SALADS</h2>
             <br>
             <div class="price-header text-end">
@@ -425,11 +432,9 @@
                 </div>
             </div>
         </div>
-        
-        
-
-        <!-- Sección: ENTRANTES -->
-        <div id="starters" class="menuSection pt-4">
+        <!-- ENTRANTES -->
+        <div id="starters" 
+            class="pt-4">
             <h2 class="text-center">ENTRANTES / STARTERS</h2>
             <br>
             <div class="price-header text-end">
@@ -562,8 +567,9 @@
                 </div>
             </div>            
         </div>
-        
-        <div id="toasts" class="menuSection pt-4">
+        <!-- TOSTAS -->
+        <div id="toasts" 
+            class="pt-4">
             <h2 class="text-center">TOSTADAS / TOAST</h2>
             <br>
             <div class="producto row mb-4">
@@ -628,10 +634,9 @@
                 </div>
             </div>
         </div>
-        
-
-        <!-- Sección: CARNES -->
-        <div id="meats" class="menuSection pt-4">
+        <!-- CARNES -->
+        <div id="meats" 
+            class="pt-4">
             <h2 class="text-center">CARNES / MEATS</h2>
             <br>
             <div class="price-header text-end">
@@ -698,10 +703,8 @@
                 </div>
             </div>
         </div>
-        
-
-        <!-- Sección: POSTRES -->
-        <div id="desserts" class="menuSection pt-4">
+        <!-- POSTRES -->
+        <div id="desserts" class="pt-4">
             <h2 class="text-center">POSTRES / DESSERTS</h2>
             <br>
             <div class="producto row mb-4">
@@ -747,8 +750,8 @@
                 </div>
             </div>
         </div>
-        
-        <div id="montaditos" class="menuSection pt-4">
+        <!-- MONTADITOS -->
+        <div id="montaditos" class="pt-4">
             <h2 class="text-center">MONTADITOS / MINI SANDWICH</h2>
             <br>
             <div class="producto row mb-4">
@@ -933,10 +936,8 @@
                 </div>
             </div>                 
         </div>
-        
-    
+        <!-- VINOS -->
         <h2 id="wines">VINOS / WINES</h2>
-
         <!-- Sub-sección: VINOS DE JEREZ / WINES OF SHERRY -->
         <h3>VINOS DE JEREZ / WINES OF SHERRY</h3>
         <div class="producto row mb-4">
