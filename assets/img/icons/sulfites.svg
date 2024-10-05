@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="262.20471"
-   height="372.04724"
+   width="200"
+   height="200"
    id="svg4209"
    version="1.1"
    inkscape:version="0.48.5 r10040"
@@ -51,27 +51,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-680.31494)">
+     transform="translate(-30,-730)">
     <g
        id="g3298"
        transform="matrix(4.1030005,0,0,4.1030005,-784.27251,-540.32916)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text4033-9-92"
-         y="364.43274"
-         x="223.00758"
-         style="font-size:15px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           style="font-size:5.5px"
-           id="tspan4037-1-9"
-           y="364.43274"
-           x="223.00758"
-           sodipodi:role="line">DIÓXIDO DE AZUFRE</tspan><tspan
-           id="tspan3318"
-           style="font-size:5.5px"
-           y="371.30774"
-           x="223.00758"
-           sodipodi:role="line">Y SULFITOS</tspan></text>
       <g
          id="g3276">
         <path
