@@ -113,3 +113,9 @@ span.hamburguer-line:nth-child(3) {
 footer {
   background-color: #488154;
 }
+
+footer a{
+text-decoration: none;
+
+}
+
