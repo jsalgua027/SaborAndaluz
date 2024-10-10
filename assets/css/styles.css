@@ -61,9 +61,6 @@ div.offcanvas-body a.nav-link {
   font-size: 1.5rem;
 }
 
-footer {
-  background-color: #488154;
-}
 
 .precios span {
   font-weight: bold;
@@ -111,4 +108,8 @@ span.hamburguer-line:nth-child(2) {
 
 span.hamburguer-line:nth-child(3) {
   top: 75%;
+}
+
+footer {
+  background-color: #488154;
 }
